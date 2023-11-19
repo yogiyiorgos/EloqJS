@@ -6,3 +6,8 @@ Separated by chapter.
 - LoopingATriangle -> Solved
 - FizzBuzz -> Solved
 - Chessboard -> UnSolved
+
+### Ch3
+- Minimum -> Solved
+- Recursion -> UnSolved
+- BeanCounting -> UnSolved
