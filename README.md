@@ -9,5 +9,5 @@ Separated by chapter.
 
 ### Ch3
 - Minimum -> Solved
-- Recursion -> UnSolved
+- Recursion -> Solved
 - BeanCounting -> UnSolved
