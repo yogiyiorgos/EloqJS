@@ -11,3 +11,9 @@ Separated by chapter.
 - Minimum -> Solved
 - Recursion -> Solved
 - BeanCounting -> UnSolved
+
+### Ch4
+- TheSumOfARange -> UnSolved
+- ReversingAnArray -> UnSolved
+- AList -> UnSolved
+- DeepComparison -> UnSolved

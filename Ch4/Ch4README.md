@@ -31,3 +31,26 @@ binding _i_, you say `value[i]`.
 A stack, in programming, is a data structure that allows us to push values into
 it and pop them out again in the opposite order so that the thing that was added
 last is removed first.
+
+
+### Array Loops
+A loop like this:
+```js
+for (let = i 0; i < JOURNAL.length; i++) {
+  let entry = JOURNAL[i]
+  // Do something with entry
+}
+```
+is very common in classical JS, going over arrays one element at a time is 
+something that comes up a lot, and to do that you'd run a counter over the length
+of the array and pick  out each element in turn.
+
+There is a simpler way to write such loops in modern JS.
+```js
+for (let entry of JOURNAL) {
+  // Do something with entry
+}
+```
+When a `for` loop looks like this, with the word `of` after a variable definition,
+it will loop over the elements of the value given after `of`. This works not only 
+for arrays but also for strings and some other data structures.
